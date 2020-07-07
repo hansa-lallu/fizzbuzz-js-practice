@@ -5,4 +5,8 @@ describe('Fizzbuzz', () => {
     number = 15 
     expect(fizzBuzz(number)).toEqual('Fizz')
   });
+
+  it('is divisable by 5', () => {
+    expect(fizzBuzz(20)).toEqual('Buzz')
+  });
 });
